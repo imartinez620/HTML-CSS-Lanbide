@@ -1,0 +1,68 @@
+/* Common nav styles */
+.navigation-wrapper{
+    /* height: 100px; */
+    background-color: #000000;
+    display: flex;
+    padding: 30px 30px;
+}
+
+/* Left column styles */
+.navigation-wrapper > .left-column{
+
+}
+
+.navigation-wrapper > .left-column > .banner-image{
+
+}
+
+.navigation-wrapper > .left-column > .banner-image img{
+    width: 200px;
+    height: 100%;
+}
+
+/* Center column styles */
+.navigation-wrapper > .center-column {
+    
+}
+
+.navigation-wrapper > .center-column > .heading{
+    color: #f4e187;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper{
+    display: flex;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-links{
+
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-links a{
+    color:white;
+    text-decoration: none;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-column{
+
+}
+
+.navigation-wrapper > .right-column > .buttons-wrapper{
+
+}
+
+.navigation-wrapper > .right-column > .buttons-wrapper > .button{
+
+}
+
+.navigation-wrapper > .right-column > .buttons-wrapper > .button button{
+
+}
+
+.navigation-wrapper > .right-column > .buttons-wrapper > .icon{
+
+}
+
+.navigation-wrapper > .right-column > .buttons-wrapper > .icon i{
+
+}
