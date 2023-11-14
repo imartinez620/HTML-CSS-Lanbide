@@ -60,9 +60,10 @@
 }
 
 .navigation-wrapper > .right-column > .buttons-wrapper > .icon{
-
+    
 }
 
 .navigation-wrapper > .right-column > .buttons-wrapper > .icon i{
-
+    color: #7b7e8b;
+    font-size: 2em;
 }
