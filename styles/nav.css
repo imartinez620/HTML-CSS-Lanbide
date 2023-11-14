@@ -3,6 +3,7 @@
     /* height: 100px; */
     background-color: #000000;
     display: flex;
+    justify-content: space-between;
     padding: 30px 30px;
 }
 
@@ -27,19 +28,28 @@
 
 .navigation-wrapper > .center-column > .heading{
     color: #f4e187;
+    margin: 0px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 500;
 }
 
 .navigation-wrapper > .center-column > .links-wrapper{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .navigation-wrapper > .center-column > .links-wrapper > .nav-links{
-
+    margin-right: 15px;
 }
 
 .navigation-wrapper > .center-column > .links-wrapper > .nav-links a{
     color:white;
+    font-weight: 700;
+    font-size: 1.5em;
     text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 /* Right column styles */
@@ -48,7 +58,7 @@
 }
 
 .navigation-wrapper > .right-column > .buttons-wrapper{
-
+    display: flex;
 }
 
 .navigation-wrapper > .right-column > .buttons-wrapper > .button{
@@ -60,7 +70,7 @@
 }
 
 .navigation-wrapper > .right-column > .buttons-wrapper > .icon{
-    
+
 }
 
 .navigation-wrapper > .right-column > .buttons-wrapper > .icon i{
