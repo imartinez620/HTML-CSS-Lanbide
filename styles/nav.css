@@ -57,23 +57,38 @@
 
 }
 
-.navigation-wrapper > .right-column > .buttons-wrapper{
+.navigation-wrapper > .right-column > .links-wrapper{
     display: flex;
+    height: 75px;
 }
 
-.navigation-wrapper > .right-column > .buttons-wrapper > .button{
-
+.navigation-wrapper > .right-column > .links-wrapper > .right-link{
+    height: 100%;
 }
 
-.navigation-wrapper > .right-column > .buttons-wrapper > .button button{
-
+.navigation-wrapper > .right-column > .links-wrapper > .right-link a{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #36383f;
+    color: white;
+    font-size: 1.75em;
+    border: 1px solid #36383f;
+    outline: none;
+    text-decoration:none;
+    border-radius: 5px;
 }
 
-.navigation-wrapper > .right-column > .buttons-wrapper > .icon{
-
+.navigation-wrapper > .right-column > .links-wrapper > .icon{
+    font-size: 1.5em;
+    
 }
 
-.navigation-wrapper > .right-column > .buttons-wrapper > .icon i{
+.navigation-wrapper > .right-column > .links-wrapper > .icon i{
     color: #7b7e8b;
     font-size: 2em;
 }
