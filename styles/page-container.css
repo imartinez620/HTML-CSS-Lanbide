@@ -1,0 +1,29 @@
+/* Page container style */
+.page-container{
+    /* margin-top: -16px; */
+    background-color: #36383f;
+}
+
+.page-container > .content-wrapper{
+    padding: 40px 0 0 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.page-container > .content-wrapper > .content-text{
+    font-size: 3em;
+}
+
+.page-container > .content-wrapper > .content-text p{
+    color: white;
+}
+
+.page-container > .content-wrapper a{
+
+}
+
+.page-container > .content-wrapper img{
+    height: 650px;
+    width: 100%;
+}
