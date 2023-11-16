@@ -14,44 +14,62 @@
     margin: 0 30px;
 }
 
-.navigation-wrapper > .left-column > .banner-image{
+/* .navigation-wrapper > .left-column > .banner-image{
 
-}
+} */
 
 .navigation-wrapper > .left-column > .banner-image img{
     width: 200px;
     height: 100%;
 }
 
-/* Center column styles */
-.navigation-wrapper > .center-column {
-    
-}
-
-.navigation-wrapper > .center-column > .heading{
+.navigation-wrapper > .left-column > .navigation-bar-wrapper > .heading{
     color: #f4e187;
     margin: 0px;
     font-family: 'Ubuntu Condensed', sans-serif;
     font-weight: 500;
+    margin: 0 0 0 75px;
+    font-size: 1.15em;
 }
 
-.navigation-wrapper > .center-column > .links-wrapper{
+.navigation-wrapper > .left-column > .navigation-bar-wrapper > .links-wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin: 0 0 0 75px;
 }
 
-.navigation-wrapper > .center-column > .links-wrapper > .nav-links{
+.navigation-wrapper > .left-column > .navigation-bar-wrapper > .links-wrapper > .nav-links{
     margin-right: 15px;
 }
 
-.navigation-wrapper > .center-column > .links-wrapper > .nav-links a{
+.navigation-wrapper > .left-column > .navigation-bar-wrapper > .links-wrapper > .nav-links a{
     color:white;
     font-weight: 700;
     font-size: 1.5em;
     text-decoration: none;
     font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navigation-wrapper > .left-column > .navigation-bar-wrapper > .links-wrapper > .down-chevron-link{
+    color:#acacac;
+    font-weight: 700;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navigation-wrapper > .left-column > .navigation-bar-wrapper > .links-wrapper > .down-chevron-link a{
+    color:inherit;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-right: 15px;
+}
+
+.navigation-wrapper > .left-column > .navigation-bar-wrapper > .links-wrapper > .down-chevron-link i{
+    display: flex;
+    align-items: center;
 }
 
 /* Right column styles */
@@ -86,6 +104,12 @@
     text-decoration:none;
     border-radius: 5px;
     margin: 0 30px;
+}
+
+.navigation-wrapper > .right-column > .links-wrapper > .right-link i{
+    color: #4bce79;
+    font-size: 1.05em;
+    margin-block-start: auto;
 }
 
 .navigation-wrapper > .right-column > .links-wrapper > .icon{
