@@ -9,8 +9,9 @@
     height: 75px;
     background-color: #36383f;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    /* align-items: center;
+    justify-content: space-around; */
+    margin: 0 2px 0 0;
 }
 
 .features-section > .features-link{
