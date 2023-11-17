@@ -6,24 +6,52 @@
 
 .page-container > .content-wrapper{
     padding: 40px 0 0 40px;
-    display: flex;
-    justify-content: center;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
 }
 
-.page-container > .content-wrapper > .content-text{
-    font-size: 3em;
+.page-container > .content-wrapper > .left-column > .content-text > .head{
+    font-size: 4em;
 }
 
-.page-container > .content-wrapper > .content-text p{
+.page-container > .content-wrapper > .left-column > .content-text p{
+    font-size: 3.1em;
     color: white;
 }
 
-.page-container > .content-wrapper a{
-
+.page-container > .content-wrapper .left-column > .page-links-wrapper{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.page-container > .content-wrapper img{
+
+.page-container > .content-wrapper .left-column > .page-links-wrapper a{
+    text-decoration: none;
+    font-size: 4em;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+.page-container > .content-wrapper .left-column > .page-links-wrapper > #sign-link{
+    background-color: #4bce79;
+    color: #000000;
+}
+
+.page-container > .content-wrapper .left-column > .page-links-wrapper > #learn-link{
+    background-color: #000000;
+    color: white;
+}
+
+.page-container > .content-wrapper > .right-column {
+    margin-left: 130px;
+}
+
+.page-container > .content-wrapper > .right-column .title{
+    color: white;
+}
+
+.page-container > .content-wrapper > .right-column > .image img{
     height: 650px;
     width: 100%;
 }
