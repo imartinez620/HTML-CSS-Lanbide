@@ -11,26 +11,28 @@
 }
 
 .page-container > .content-wrapper > .left-column > .content-text > .head{
-    font-size: 4em;
+    font-size: 3.25em;
 }
 
 .page-container > .content-wrapper > .left-column > .content-text p{
-    font-size: 3.1em;
+    font-size: 2.85em;
     color: white;
 }
 
 .page-container > .content-wrapper .left-column > .page-links-wrapper{
-    width: 90%;
+    width: 850px;
+    height: 75px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
 .page-container > .content-wrapper .left-column > .page-links-wrapper a{
     text-decoration: none;
-    font-size: 4em;
+    font-size: 3.25em;
     border-radius: 5px;
-    padding: 0 20px;
+    padding: 20px 50px;
 }
 
 .page-container > .content-wrapper .left-column > .page-links-wrapper > #sign-link{
