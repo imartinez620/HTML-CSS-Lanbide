@@ -1,4 +1,5 @@
 @media (max-width:1450px){
+    /* nav.css changes */
     .navigation-wrapper{
         flex-direction: column;
         height: 100%;
@@ -8,21 +9,27 @@
     .navigation-wrapper > .left-column{
         order: 1;
         flex-direction: column;
-        /* width: 615px; */
         margin-top: 40px;
-        /* margin-left: 10px; */
         justify-content: center;
-        /* margin-bottom: 15px; */
+    }
+
+    .navigation-wrapper > .left-column > .banner-image img{
+        width: 300px;
     }
 
     .navigation-wrapper > .left-column > .navigation-bar-wrapper > .heading{
         margin-top: 25px;
         margin-left: 40px;
+        font-size: 2.15em;
     }
 
     .navigation-wrapper > .left-column > .navigation-bar-wrapper > .links-wrapper{
         flex-wrap: wrap;
         margin: 0 0 0 40px;
+    }
+
+    .navigation-wrapper > .left-column > .navigation-bar-wrapper > .links-wrapper > .nav-links a{
+        font-size: 1.7em;
     }
 
     .navigation-wrapper > .left-column > .navigation-bar-wrapper > .links-wrapper > .down-chevron-link{
@@ -38,29 +45,27 @@
         margin-left: -35px;
     }
 
+    /* page-container.css changes */
     .page-container > .content-wrapper{
-        padding: 40px 0 0 40px;
-        /* grid-template-columns: 1fr;  */
+        padding: 0 0 0 40px;
         display: flex;
         flex-direction: column;
     }
 
-    .page-container > .content-wrapper .left-column > .page-links-wrapper{
-      
+    .page-container > .content-wrapper .left-column > .page-links-wrapper{  
         flex-direction: column;
         align-items: flex-start;
         height: 220px;
-
     }
 
     .page-container > .content-wrapper .left-column > .page-links-wrapper a{
-      margin-top: -20px;
+        margin-top: -20px;
         margin-bottom: 40px;
-
     }
 
     .page-container > .content-wrapper > .right-column {
         margin-left: 0px;
+        margin-right: 40px;
     }
 
     .page-container > .content-wrapper > .right-column > .image img{
@@ -68,8 +73,14 @@
         height: 100%;
     }
     
+    /* features-section.css changes */
     .features-section{
-        flex-direction: column;    
+        flex-direction: column;   
+        height: 300px;
+    }
+
+    .features-section > .features-link{
+        height: 100%;
     }
 
     .footer{

@@ -1,6 +1,5 @@
 /* Page container style */
 .page-container{
-    /* margin-top: -16px; */
     background-color: #36383f;
     box-shadow: -800px -200px 150px rgba(0, 0, 0, 0.5) inset;
 }
@@ -11,8 +10,10 @@
     grid-template-columns: 1fr 1fr; 
 }
 
+/* left column */
 .page-container > .content-wrapper > .left-column > .content-text > .head{
     font-size: 3.25em;
+    color: rgb(255, 255, 255, 0.8);
 }
 
 .page-container > .content-wrapper > .left-column > .content-text > .head i{
@@ -32,7 +33,6 @@
     align-items: center;
 }
 
-
 .page-container > .content-wrapper .left-column > .page-links-wrapper a{
     text-decoration: none;
     font-size: 3.25em;
@@ -50,6 +50,7 @@
     color: white;
 }
 
+/* right column */
 .page-container > .content-wrapper > .right-column {
     margin-left: 130px;
 }
