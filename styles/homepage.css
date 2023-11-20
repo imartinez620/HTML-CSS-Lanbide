@@ -1,12 +1,12 @@
 /* Page container style */
 .content-wrapper{
-    /* margin-top: -16px;
-    background-color: #36383f; */
+
 }
 
 /* Features section style */
 .features-section{
     height: 75px;
+    width: 100%;
     background-color: #36383f;
     display: flex;
     /* align-items: center;
