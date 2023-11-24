@@ -16,6 +16,10 @@
     color: rgb(255, 255, 255, 0.8);
 }
 
+.page-container > .content-wrapper > .left-column > .content-text > .head i{
+    color: #ffd05e;
+}
+
 .page-container > .content-wrapper > .left-column > .content-text p{
     font-size: 2.85em;
     color: rgb(255, 255, 255, 0.5);
